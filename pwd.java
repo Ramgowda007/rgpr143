@@ -2,7 +2,8 @@ public class CallingMethodsInSameClass
 
 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 
 		printOne();
 
@@ -14,9 +15,10 @@ public class CallingMethodsInSameClass
 
 
 
-	public static void printOne() {
+	public static void printOne() 
+	{
 
-		System.out.println("Hello World");
+		System.out.println("Hello git loves World");
 
 	}
 
