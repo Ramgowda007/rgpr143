@@ -12,3 +12,4 @@ do
 	echo "=============================="
 done
 docker container inspect -f '{{.NetworkSettings.Networks.bridge.IPAddress}}' `docker container ls -a -q` >IPs.txt
+
